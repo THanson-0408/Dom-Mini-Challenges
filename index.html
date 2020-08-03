@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Lab 1</title>
+  </head>
+  <body>
+    <section>
+      <p>Total: $ <span class="total"></span></p>
+      <button class="food" data-amount="2">Lime Cola $2.00</button>
+      <button class="food" data-amount="3">Salted Peanuts $3.00</button>
+      <button class="food" data-amount="4">Chocolate Bar $4.00</button>
+      <button class="food" data-amount="6">Fruit Gummies $6.00</button>
+    </section>
+
+    <form class="make-money">
+      <label for="amount">How many?</label>
+      <input type="number" id="amount" name="amount" />
+      <label for="select">Which coin?</label>
+      <select id="select" name="select">
+        <option value="Penny">Penny</option>
+        <option value="Nickel">Nickel</option>
+        <option value="Dime">Dime</option>
+        <option value="Quarter">Quarter</option>
+      </select>
+      <button class="moneybtn">Make Money</button>
+    </form>
+
+    <div class="light-bulb">Light Bulb</div>
+    <button class="on">On</button>
+    <button class="off">Off</button>
+    <button class="toggle">Toggle</button>
+    <button class="end">End</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
