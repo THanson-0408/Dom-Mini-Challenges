@@ -17,22 +17,28 @@
 
     <form class="make-money">
       <label for="amount">How many?</label>
-      <input type="number" id="amount" name="amount" />
-      <label for="select">Which coin?</label>
-      <select id="select" name="select">
-        <option value="Penny">Penny</option>
-        <option value="Nickel">Nickel</option>
-        <option value="Dime">Dime</option>
-        <option value="Quarter">Quarter</option>
+
+      <input type="text" id="amount" name="amount" />
+
+      <label for="type">Which coin?</label>
+
+      <select id="type" name="type">
+        <option value="penny">Penny</option>
+        <option value="nickel">Nickel</option>
+        <option value="dime">Dime</option>
+        <option value="quarter">Quarter</option>
       </select>
-      <button class="moneybtn">Make Money</button>
+
+      <button>Make Money</button>
+
+      <div class="coin-container"></div>
     </form>
 
     <div class="light-bulb">Light Bulb</div>
-    <button class="on">On</button>
-    <button class="off">Off</button>
-    <button class="toggle">Toggle</button>
-    <button class="end">End</button>
+    <button class="on switch">On</button>
+    <button class="off switch">Off</button>
+    <button class="toggle switch">Toggle</button>
+    <button class="end switch">End</button>
 
     <script src="script.js"></script>
   </body>
